@@ -4,8 +4,8 @@ set -e
 echo "Installing Bash Completion..."
 
 # Install Bash
-apk update
-apk add --no-cache bash-completion
+apt update
+apt add --no-cache bash-completion
 
 . ~/.bashrc
 
