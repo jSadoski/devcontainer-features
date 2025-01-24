@@ -3,8 +3,5 @@
     "id": "bash-completion",
     "version": "1.0.0",
     "description": "Bash auto-complete",
-    "options": {},
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+    "options": {}
 }
