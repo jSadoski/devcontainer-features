@@ -5,7 +5,9 @@ echo "Installing Bash Completion..."
 
 # Install Bash
 apt update
-apt add --no-cache bash-completion
+apt install bash-completion --no-install-recommends
+apt-get clean
+rm -rf /var/lib/apt/lists/*
 
 . ~/.bashrc
 
