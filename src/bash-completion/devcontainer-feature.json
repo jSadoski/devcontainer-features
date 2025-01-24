@@ -1,0 +1,7 @@
+{
+    "name": "Bash Completion",
+    "id": "bash-completion",
+    "version": "1.0.0",
+    "description": "Bash auto-complete",
+    "options": {}
+}
