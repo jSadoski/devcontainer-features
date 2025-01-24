@@ -4,8 +4,8 @@ set -e
 echo "Installing Bash Completion..."
 
 # Install Bash
-apt update
-apt install bash-completion --no-install-recommends
+apt-get update
+apt-get install bash-completion --no-install-recommends
 apt-get clean
 rm -rf /var/lib/apt/lists/*
 
